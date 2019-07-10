@@ -39,6 +39,7 @@ jobs:
       - checkout
       - run: git submodule update --init
       # Install dependencies.
+      - run: sudo gem install jazzy --no-document --version 0.9.4
       - run: brew install cmake
       # Build framework and docs.
       - run: make ios-sim BUILD_TYPE=Debug
