@@ -141,6 +141,7 @@ void create(std::unique_ptr<Platform> p, int w, int h) {
     }
 
     char* nextzenApiKeyEnvVar = getenv("NEXTZEN_API_KEY");
+    nextzenApiKeyEnvVar = "zPibckDAQ3mdOxqcarr3Qw";
     if (nextzenApiKeyEnvVar && strlen(nextzenApiKeyEnvVar) > 0) {
         apiKey = nextzenApiKeyEnvVar;
     } else {

@@ -144,3 +144,8 @@ core/generated/*.h
 # CLion build directories
 /cmake-build-debug/
 /cmake-build-release/
+
+
+
+#add by zhlt
+ core/deps*
